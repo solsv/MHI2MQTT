@@ -9,9 +9,9 @@ R.J. Dekker, June 2018
 */
 
 #include <FS.h>
-#include <ESP8266WiFi.h>
+#include <WiFi.h>
 #include <DNSServer.h>
-#include <ESP8266WebServer.h>
+#include <WebServer.h>
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 #include <WiFiManager.h>                                                                                           //https://github.com/tzapu/WiFiManager
