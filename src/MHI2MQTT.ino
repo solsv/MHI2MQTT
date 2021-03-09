@@ -18,6 +18,7 @@ R.J. Dekker, June 2018
 #include <ArduinoJson.h>                                                                                           //https://github.com/bblanchon/ArduinoJson
 #include <PubSubClient.h>                                                                                          //https://github.com/knolleary/pubsubclient
 #include <SPIFFS.h>
+#include <SPI.h>
 //#include <EasyTransfer.h>                                                                                          //https://github.com/madsci1016/Arduino-EasyTransfer
 
 //Access point that WiFiManager starts for configuration. Name and password should be set below before flashing. This is hardcoded and cannot be changed later.
